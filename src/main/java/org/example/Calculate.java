@@ -1,7 +1,7 @@
 package org.example;
 
 public class Calculate {
-    public int sub(int a,int b){
-        return a-b;
+    public void sub(int a,int b){
+        System.out.println("The difference of two nos are"+ (a-b));
     }
 }
