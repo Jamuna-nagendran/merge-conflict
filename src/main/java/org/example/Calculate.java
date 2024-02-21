@@ -9,6 +9,8 @@ public class Calculate {
     }
     public void add(int a,int b){
         System.out.println("The sum of the two nos" + (a+b));
-
+    }
+    public void mul(int a, int b){
+        System.out.println("The multiplication of the two nos" + (a*b));
     }
 }
