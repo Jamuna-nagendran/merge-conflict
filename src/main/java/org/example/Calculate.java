@@ -13,4 +13,7 @@ public class Calculate {
     public void mul(int a, int b){
         System.out.println("The multiplication of the two nos" + (a*b));
     }
+    public void div(int a,int b){
+        System.out.println("The division of the two nos" + (a/b));
+    }
 }
